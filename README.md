@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# MovieLand
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Movie Search Website is a web application that allows users to search for movies using the OMDb API. It provides users with information about movies such as title, release year, plot summary, ratings, and more. The website is designed to be user-friendly and intuitive, allowing users to easily find the information they need about their favorite movies.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search**: Users can search for movies by entering keywords such as title, actor, director, or genre.
+- **Movie Details**: Detailed information about each movie is displayed, including title, release year, genre, plot summary, ratings, and poster image.
+- **Responsive Design**: The website is designed to work seamlessly across desktop, tablet, and mobile devices.
+- **OMDb API Integration**: The website utilizes the OMDb API to fetch movie data, requiring an API key for access.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this Movie Search Website locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine:
 
-### `npm test`
+```
+git clone https://github.com/manish2889/MovieLand.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+```
+cd movie-search-website
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Obtain an API key from the OMDb API website (https://www.omdbapi.com/apikey.aspx).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+OMDB_API_KEY=your_api_key_here
+```
 
-### `npm run eject`
+5. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+7. Open your web browser and visit `http://localhost:3000` to view the website.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React**: Frontend JavaScript library for building user interfaces.
+- **OMDb API**: API for retrieving movie information.
+- **Bootstrap**: Frontend framework for designing responsive and mobile-first websites.
+- **npm**: Package manager for JavaScript.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
